@@ -1,0 +1,2729 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\.eclipseextension' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1511146612221'/>
+    <property name='org.eclipse.update.site.policy' value='USER-EXCLUDE'/>
+    <property name='org.eclipse.update.site.list' value=''/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='258'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare' version='3.5.401.v20130709-1308'>
+      <properties size='2'>
+        <property name='artifact.size' value='754963'/>
+        <property name='download.size' value='754963'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.compare_3.5.401.v20130709-1308%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.compare_3.5.401.v20130709-1308 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.compress' version='1.4.1.v201301140946'>
+      <properties size='2'>
+        <property name='artifact.size' value='254531'/>
+        <property name='download.size' value='254531'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.apache.commons.compress_1.4.1.v201301140946%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.apache.commons.compress_1.4.1.v201301140946 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.ftp' version='3.2.0.201305152119'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rse.ftp_3.2.0%20(2).201305152119/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rse.ftp_3.2.0 (2).201305152119'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.services.dstore' version='3.2.100.201305201712'>
+      <properties size='2'>
+        <property name='artifact.size' value='339537'/>
+        <property name='download.size' value='339537'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.services.dstore_3.2.100.201305201712%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.services.dstore_3.2.100.201305201712 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.console' version='1.0.100.v20130429-0953'>
+      <properties size='2'>
+        <property name='artifact.size' value='116277'/>
+        <property name='download.size' value='116277'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.console_1.0.100.v20130429-0953%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.console_1.0.100.v20130429-0953 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security.win32.x86_64' version='1.0.100.v20130327-1442'>
+      <properties size='2'>
+        <property name='artifact.size' value='35334'/>
+        <property name='download.size' value='35334'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.security.win32.x86_64_1.0.100.v20130327-1442%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.security.win32.x86_64_1.0.100.v20130327-1442 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.bugzilla.ide' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='16085'/>
+        <property name='download.size' value='16085'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.bugzilla.ide_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.bugzilla.ide_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.changelog.cparser' version='2.7.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='13901'/>
+        <property name='download.size' value='13901'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.changelog.cparser_2.7.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.changelog.cparser_2.7.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.forms' version='3.6.1.v20130822-1117'>
+      <properties size='2'>
+        <property name='artifact.size' value='302339'/>
+        <property name='download.size' value='302339'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ui.forms_3.6.1.v20130822-1117%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ui.forms_3.6.1.v20130822-1117 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch.remote' version='2.4.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='88145'/>
+        <property name='download.size' value='88145'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.launch.remote_2.4.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.launch.remote_2.4.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.ssh' version='2.1.300.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='18454'/>
+        <property name='download.size' value='18454'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.files.ssh_2.1.300.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.files.ssh_2.1.300.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.build' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.gnu.build_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.gnu.build_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.local' version='2.1.500.201305211438'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rse.local_2.1.500%20(2).201305211438/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rse.local_2.1.500 (2).201305211438'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.text' version='3.5.300.v20130515-1451'>
+      <properties size='2'>
+        <property name='artifact.size' value='249432'/>
+        <property name='download.size' value='249432'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.text_3.5.300.v20130515-1451%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.text_3.5.300.v20130515-1451 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.ide_feature' version='3.9.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.ide_feature_3.9.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.ide_feature_3.9.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.intro.universal' version='3.2.600.v20130326-1254'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ui.intro.universal_3.2.600%20(2).v20130326-1254/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ui.intro.universal_3.2.600 (2).v20130326-1254'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.console' version='3.5.200.v20130514-0954'>
+      <properties size='2'>
+        <property name='artifact.size' value='161127'/>
+        <property name='download.size' value='161127'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ui.console_3.5.200.v20130514-0954%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ui.console_3.5.200.v20130514-0954 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.help.base' version='4.0.1.v20140221-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='406943'/>
+        <property name='download.size' value='406943'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.help.base_4.0.1.v20140221-1700%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.help.base_4.0.1.v20140221-1700 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.build.crossgcc' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.build.crossgcc_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.build.crossgcc_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.search' version='1.3.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='62047'/>
+        <property name='download.size' value='62047'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.debug.ui.memory.search_1.3.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.debug.ui.memory.search_1.3.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.repository.tools' version='2.1.0.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='229709'/>
+        <property name='download.size' value='229709'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.repository.tools_2.1.0.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.repository.tools_2.1.0.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.rpm.rpmlint' version='1.0.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='59091'/>
+        <property name='download.size' value='59091'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.rpm.rpmlint_1.0.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.rpm.rpmlint_1.0.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.shells.telnet' version='1.2.300.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='18685'/>
+        <property name='download.size' value='18685'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.shells.telnet_1.2.300.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.shells.telnet_1.2.300.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.update.configurator' version='3.3.200.v20140203-1328'>
+      <properties size='2'>
+        <property name='artifact.size' value='101021'/>
+        <property name='download.size' value='101021'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.update.configurator_3.3.200.v20140203-1328%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.update.configurator_3.3.200.v20140203-1328 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.commons.identity' version='1.1.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.commons.identity_1.1.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.commons.identity_1.1.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.concurrent' version='1.1.0.v20130327-1442'>
+      <properties size='2'>
+        <property name='artifact.size' value='25493'/>
+        <property name='download.size' value='25493'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.concurrent_1.1.0.v20130327-1442%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.concurrent_1.1.0.v20130327-1442 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.terminal' version='3.2.100.201308011444'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.tm.terminal_3.2.100%20(2).201308011444/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.tm.terminal_3.2.100 (2).201308011444'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.search' version='3.9.1.v20131121-1346'>
+      <properties size='2'>
+        <property name='artifact.size' value='472643'/>
+        <property name='download.size' value='472643'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.search_3.9.1.v20131121-1346%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.search_3.9.1.v20131121-1346 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem.win32.x86_64' version='1.4.0.v20121112-1357'>
+      <properties size='2'>
+        <property name='artifact.size' value='32016'/>
+        <property name='download.size' value='32016'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.filesystem.win32.x86_64_1.4.0.v20121112-1357%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.filesystem.win32.x86_64_1.4.0.v20121112-1357 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.app' version='1.3.100.v20130327-1442'>
+      <properties size='2'>
+        <property name='artifact.size' value='86244'/>
+        <property name='download.size' value='86244'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.app_1.3.100.v20130327-1442%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.app_1.3.100.v20130327-1442 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.extras.feature' version='1.2.0.v20140221-1852'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.equinox.p2.extras.feature_1.2.0%20(2).v20140221-1852/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.equinox.p2.extras.feature_1.2.0 (2).v20140221-1852'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rcp' version='4.3.2.v20140221-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rcp_4.3.2%20(2).v20140221-1700/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rcp_4.3.2 (2).v20140221-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.transport' version='2.1.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='118191'/>
+        <property name='download.size' value='118191'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.debug.ui.memory.transport_2.1.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.debug.ui.memory.transport_2.1.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.mylyn.ui' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='72536'/>
+        <property name='download.size' value='72536'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.mylyn.ui_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.mylyn.ui_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epp.mpc.core' version='1.2.1.v20140219-1000'>
+      <properties size='2'>
+        <property name='artifact.size' value='103628'/>
+        <property name='download.size' value='103628'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.epp.mpc.core_1.2.1.v20140219-1000%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.epp.mpc.core_1.2.1.v20140219-1000 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.lttng.help' version='2.2.1.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='5636479'/>
+        <property name='download.size' value='5636479'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.lttng.help_2.2.1.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.lttng.help_2.2.1.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.publisher.eclipse' version='1.1.200.v20130516-1953'>
+      <properties size='2'>
+        <property name='artifact.size' value='207496'/>
+        <property name='download.size' value='207496'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.publisher.eclipse_1.1.200.v20130516-1953%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.publisher.eclipse_1.1.200.v20130516-1953 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.rpm.ui' version='1.1.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='56447'/>
+        <property name='download.size' value='56447'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.rpm.ui_1.1.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.rpm.ui_1.1.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.lttng2.ui' version='2.2.1.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='336591'/>
+        <property name='download.size' value='336591'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.lttng2.ui_2.2.1.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.lttng2.ui_2.2.1.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.help.ui' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='1232505'/>
+        <property name='download.size' value='1232505'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.help.ui_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.help.ui_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.cdt.libhover.devhelp.feature' version='1.0.0.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.cdt.libhover.devhelp.feature_1.0.0%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.cdt.libhover.devhelp.feature_1.0.0 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.dsf' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.gnu.dsf_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.gnu.dsf_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.launch.remote' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.launch.remote_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.launch.remote_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.cxx' version='3.2.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='65722'/>
+        <property name='download.size' value='65722'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.codan.core.cxx_3.2.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.codan.core.cxx_3.2.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.core' version='7.4.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='552289'/>
+        <property name='download.size' value='552289'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.debug.core_7.4.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.debug.core_7.4.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.repositories.core' version='1.1.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='46452'/>
+        <property name='download.size' value='46452'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.commons.repositories.core_1.1.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.commons.repositories.core_1.1.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.updatechecker' version='1.1.200.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='17684'/>
+        <property name='download.size' value='17684'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.updatechecker_1.1.200.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.updatechecker_1.1.200.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.discovery.core' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='86876'/>
+        <property name='download.size' value='86876'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.discovery.core_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.discovery.core_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.common' version='2.9.2.v20131212-0545'>
+      <properties size='2'>
+        <property name='artifact.size' value='351628'/>
+        <property name='download.size' value='351628'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.emf.common_2.9.2.v20131212-0545%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.emf.common_2.9.2.v20131212-0545 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.lang' version='2.6.0.v201205030909'>
+      <properties size='2'>
+        <property name='artifact.size' value='299208'/>
+        <property name='download.size' value='299208'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.apache.commons.lang_2.6.0.v201205030909%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.apache.commons.lang_2.6.0.v201205030909 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.core' version='3.3.1.201306281330'>
+      <properties size='2'>
+        <property name='artifact.size' value='135428'/>
+        <property name='download.size' value='135428'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.files.core_3.3.1.201306281330%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.files.core_3.3.1.201306281330 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.dataviewers.charts' version='5.0.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='41732'/>
+        <property name='download.size' value='41732'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.dataviewers.charts_5.0.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.dataviewers.charts_5.0.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.discovery.ui' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='105944'/>
+        <property name='download.size' value='105944'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.discovery.ui_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.discovery.ui_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.debug.core' version='3.8.0.v20130514-0954'>
+      <properties size='2'>
+        <property name='artifact.size' value='347936'/>
+        <property name='download.size' value='347936'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.debug.core_3.8.0.v20130514-0954%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.debug.core_3.8.0.v20130514-0954 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jsoup' version='1.7.2.v201304221138'>
+      <properties size='2'>
+        <property name='artifact.size' value='315528'/>
+        <property name='download.size' value='315528'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.jsoup_1.7.2.v201304221138%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.jsoup_1.7.2.v201304221138 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.dstore' version='2.1.300.201205241511'>
+      <properties size='2'>
+        <property name='artifact.size' value='37996'/>
+        <property name='download.size' value='37996'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.files.dstore_2.1.300.201205241511%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.files.dstore_2.1.300.201205241511 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.event' version='1.3.0.v20130327-1442'>
+      <properties size='2'>
+        <property name='artifact.size' value='32690'/>
+        <property name='download.size' value='32690'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.event_1.3.0.v20130327-1442%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.event_1.3.0.v20130327-1442 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator.manipulator' version='2.0.0.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='25285'/>
+        <property name='download.size' value='25285'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.autotools.ui' version='1.0.1.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='812352'/>
+        <property name='download.size' value='812352'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.autotools.ui_1.0.1.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.autotools.ui_1.0.1.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.tools.launch.core' version='2.0.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='21929'/>
+        <property name='download.size' value='21929'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.tools.launch.core_2.0.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.tools.launch.core_2.0.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.tmf' version='2.2.1.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.tmf_2.2.1%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.tmf_2.2.1 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.terminals.ssh' version='1.0.200.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='13274'/>
+        <property name='download.size' value='13274'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.terminals.ssh_1.0.200.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.terminals.ssh_1.0.200.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.tmf.core' version='2.2.1.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='324233'/>
+        <property name='download.size' value='324233'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.tmf.core_2.2.1.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.tmf.core_2.2.1.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.efs' version='2.1.401.201301141950'>
+      <properties size='2'>
+        <property name='artifact.size' value='33215'/>
+        <property name='download.size' value='33215'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.efs_2.1.401.201301141950%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.efs_2.1.401.201301141950 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.commands' version='0.10.2.v20130515-1857'>
+      <properties size='2'>
+        <property name='artifact.size' value='23904'/>
+        <property name='download.size' value='23904'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.e4.core.commands_0.10.2.v20130515-1857%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.e4.core.commands_0.10.2.v20130515-1857 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch' version='7.1.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='233140'/>
+        <property name='download.size' value='233140'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.launch_7.1.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.launch_7.1.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.security' version='8.1.14.v20131031'>
+      <properties size='2'>
+        <property name='artifact.size' value='98898'/>
+        <property name='download.size' value='98898'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.jetty.security_8.1.14.v20131031%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.jetty.security_8.1.14.v20131031 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jgit' version='3.2.0.201312181205-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='1853446'/>
+        <property name='download.size' value='1853446'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.jgit_3.2.0.201312181205-r%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.jgit_3.2.0.201312181205-r (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.ctf.core' version='2.2.1.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='125319'/>
+        <property name='download.size' value='125319'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.ctf.core_2.2.1.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.ctf.core_2.2.1.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.tasks.index.core' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='31252'/>
+        <property name='download.size' value='31252'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.tasks.index.core_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.tasks.index.core_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.twiki.ui' version='1.8.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='9940'/>
+        <property name='download.size' value='9940'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.wikitext.twiki.ui_1.8.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.wikitext.twiki.ui_1.8.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.mediawiki.core' version='1.8.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='112919'/>
+        <property name='download.size' value='112919'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.wikitext.mediawiki.core_1.8.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.wikitext.mediawiki.core_1.8.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.debug' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.gnu.debug_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.gnu.debug_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.swt.theme' version='0.9.100.v20130515-1857'>
+      <properties size='2'>
+        <property name='artifact.size' value='25528'/>
+        <property name='download.size' value='25528'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.e4.ui.css.swt.theme_0.9.100.v20130515-1857%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.e4.ui.css.swt.theme_0.9.100.v20130515-1857 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.servlet.jsp' version='2.2.0.v201112011158'>
+      <properties size='2'>
+        <property name='artifact.size' value='107235'/>
+        <property name='download.size' value='107235'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/javax.servlet.jsp_2.2.0.v201112011158%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\javax.servlet.jsp_2.2.0.v201112011158 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.preferences' version='3.5.100.v20130422-1538'>
+      <properties size='2'>
+        <property name='artifact.size' value='127170'/>
+        <property name='download.size' value='127170'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.preferences_3.5.100.v20130422-1538%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.preferences_3.5.100.v20130422-1538 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.di' version='1.3.0.v20130514-1256'>
+      <properties size='2'>
+        <property name='artifact.size' value='52219'/>
+        <property name='download.size' value='52219'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.e4.core.di_1.3.0.v20130514-1256%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.e4.core.di_1.3.0.v20130514-1256 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.commons' version='3.9.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.commons_3.9.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.commons_3.9.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filebuffers' version='3.5.300.v20130225-1821'>
+      <properties size='2'>
+        <property name='artifact.size' value='114602'/>
+        <property name='download.size' value='114602'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.filebuffers_3.5.300.v20130225-1821%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.filebuffers_3.5.300.v20130225-1821 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.garbagecollector' version='1.0.200.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='25053'/>
+        <property name='download.size' value='25053'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.garbagecollector_1.0.200.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.garbagecollector_1.0.200.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.dstore' version='3.4.100.201309112143'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rse.dstore_3.4.100%20(2).201309112143/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rse.dstore_3.4.100 (2).201309112143'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.editors' version='3.8.100.v20130513-1637'>
+      <properties size='2'>
+        <property name='artifact.size' value='577037'/>
+        <property name='download.size' value='577037'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ui.editors_3.8.100.v20130513-1637%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ui.editors_3.8.100.v20130513-1637 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.mylyn' version='5.5.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.mylyn_5.5.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.mylyn_5.5.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.lttng2.kernel.core' version='2.2.1.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='23790'/>
+        <property name='download.size' value='23790'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.lttng2.kernel.core_2.2.1.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.lttng2.kernel.core_2.2.1.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin.equinox' version='1.0.500.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='63436'/>
+        <property name='download.size' value='63436'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.frameworkadmin.equinox_1.0.500.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.frameworkadmin.equinox_1.0.500.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director.app' version='1.0.300.v20130819-1621'>
+      <properties size='2'>
+        <property name='artifact.size' value='45334'/>
+        <property name='download.size' value='45334'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.director.app_1.0.300.v20130819-1621%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.director.app_1.0.300.v20130819-1621 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.ibm.icu' version='50.1.1.v201304230130'>
+      <properties size='2'>
+        <property name='artifact.size' value='9451362'/>
+        <property name='download.size' value='9451362'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/com.ibm.icu_50.1.1.v201304230130%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\com.ibm.icu_50.1.1.v201304230130 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.externaltools' version='1.0.200.v20130402-1741'>
+      <properties size='2'>
+        <property name='artifact.size' value='40987'/>
+        <property name='download.size' value='40987'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.externaltools_1.0.200.v20130402-1741%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.externaltools_1.0.200.v20130402-1741 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.gcov.core' version='5.0.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='111201'/>
+        <property name='download.size' value='111201'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.gcov.core_5.0.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.gcov.core_5.0.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.connectorservice.local' version='2.1.400.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='14842'/>
+        <property name='download.size' value='14842'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.connectorservice.local_2.1.400.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.connectorservice.local_2.1.400.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.commons.repositories' version='1.1.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.commons.repositories_1.1.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.commons.repositories_1.1.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.ecore' version='2.9.2.v20131212-0545'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.emf.ecore_2.9.2%20(2).v20131212-0545/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.emf.ecore_2.9.2 (2).v20131212-0545'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.ssl' version='1.1.0.v20130604-1622'>
+      <properties size='2'>
+        <property name='artifact.size' value='14553'/>
+        <property name='download.size' value='14553'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ecf.ssl_1.1.0.v20130604-1622%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ecf.ssl_1.1.0.v20130604-1622 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.mi.ui' version='6.1.1.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='154913'/>
+        <property name='download.size' value='154913'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.debug.mi.ui_6.1.1.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.debug.mi.ui_6.1.1.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer' version='3.2.0.v20130604-1622'>
+      <properties size='2'>
+        <property name='artifact.size' value='127621'/>
+        <property name='download.size' value='127621'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ecf.provider.filetransfer_3.2.0.v20130604-1622%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ecf.provider.filetransfer_3.2.0.v20130604-1622 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui' version='2.3.0.v20131209-2052'>
+      <properties size='2'>
+        <property name='artifact.size' value='552123'/>
+        <property name='download.size' value='552123'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.ui_2.3.0.v20131209-2052%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.ui_2.3.0.v20131209-2052 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.natives' version='1.1.100.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='53136'/>
+        <property name='download.size' value='53136'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.touchpoint.natives_1.1.100.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.touchpoint.natives_1.1.100.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse' version='3.5.0.201309112143'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rse_3.5.0%20(2).201309112143/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rse_3.5.0 (2).201309112143'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.help' version='2.0.2.v20140221-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.help_2.0.2%20(2).v20140221-1700/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.help_2.0.2 (2).v20140221-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.cdt.libhover.devhelp' version='1.0.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='53429'/>
+        <property name='download.size' value='53429'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.cdt.libhover.devhelp_1.0.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.cdt.libhover.devhelp_1.0.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.intro' version='3.4.200.v20130326-1254'>
+      <properties size='2'>
+        <property name='artifact.size' value='309441'/>
+        <property name='download.size' value='309441'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ui.intro_3.4.200.v20130326-1254%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ui.intro_3.4.200.v20130326-1254 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.discovery.feature' version='1.0.100.v20130502-0334'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.equinox.p2.discovery.feature_1.0.100%20(2).v20130502-0334/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.equinox.p2.discovery.feature_1.0.100 (2).v20130502-0334'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui' version='8.2.1.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='490214'/>
+        <property name='download.size' value='490214'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.managedbuilder.ui_8.2.1.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.managedbuilder.ui_8.2.1.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.core.feature' version='1.2.1.v20140221-1852'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.equinox.p2.core.feature_1.2.1%20(2).v20140221-1852/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.equinox.p2.core.feature_1.2.1 (2).v20140221-1852'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.msw' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.msw_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.msw_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.core.contexts' version='1.3.1.v20130905-0905'>
+      <properties size='2'>
+        <property name='artifact.size' value='47374'/>
+        <property name='download.size' value='47374'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.e4.core.contexts_1.3.1.v20130905-0905%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.e4.core.contexts_1.3.1.v20130905-0905 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.processes.local' version='2.1.400.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='18282'/>
+        <property name='download.size' value='18282'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.processes.local_2.1.400.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.processes.local_2.1.400.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.gprof.feature' version='2.0.0.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.gprof.feature_2.0.0%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.gprof.feature_2.0.0 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.el' version='2.2.0.v201303151357'>
+      <properties size='2'>
+        <property name='artifact.size' value='137042'/>
+        <property name='download.size' value='137042'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/com.sun.el_2.2.0.v201303151357%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\com.sun.el_2.2.0.v201303151357 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rcp.configuration' version='1.0.0.v20140117-0610'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rcp.configuration_1.0.0%20(2).v20140117-0610/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rcp.configuration_1.0.0 (2).v20140117-0610'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.local' version='2.1.300.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='26534'/>
+        <property name='download.size' value='26534'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.files.local_2.1.300.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.files.local_2.1.300.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.efs.ui' version='2.1.400.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='21298'/>
+        <property name='download.size' value='21298'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.efs.ui_2.1.400.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.efs.ui_2.1.400.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epp.mpc' version='1.2.1.v20140219-1000'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.epp.mpc_1.2.1%20(2).v20140219-1000/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.epp.mpc_1.2.1 (2).v20140219-1000'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.textile.ui' version='1.8.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='11856'/>
+        <property name='download.size' value='11856'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.wikitext.textile.ui_1.8.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.wikitext.textile.ui_1.8.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.terminals' version='1.2.100.201308011444'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rse.terminals_1.2.100%20(2).201308011444/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rse.terminals_1.2.100 (2).201308011444'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.net.win32.x86_64' version='1.0.100.v20100505-1614'>
+      <properties size='2'>
+        <property name='artifact.size' value='29267'/>
+        <property name='download.size' value='29267'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.net.win32.x86_64_1.0.100.v20100505-1614%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.net.win32.x86_64_1.0.100.v20100505-1614 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.cdt.libhover.feature' version='1.0.0.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.cdt.libhover.feature_1.0.0%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.cdt.libhover.feature_1.0.0 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.confluence.core' version='1.8.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='77067'/>
+        <property name='download.size' value='77067'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.wikitext.confluence.core_1.8.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.wikitext.confluence.core_1.8.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.runtime' version='0.10.0.v201209301036'>
+      <properties size='2'>
+        <property name='artifact.size' value='80249'/>
+        <property name='download.size' value='80249'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.apache.felix.gogo.runtime_0.10.0.v201209301036%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.apache.felix.gogo.runtime_0.10.0.v201209301036 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.bugzilla.core' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='260832'/>
+        <property name='download.size' value='260832'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.bugzilla.core_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.bugzilla.core_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.el' version='2.2.0.v201303151357'>
+      <properties size='2'>
+        <property name='artifact.size' value='56002'/>
+        <property name='download.size' value='56002'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/javax.el_2.2.0.v201303151357%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\javax.el_2.2.0.v201303151357 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.platform' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.platform_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.platform_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit' version='3.2.0.201312181205-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='10908'/>
+        <property name='download.size' value='10908'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.egit_3.2.0.201312181205-r%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.egit_3.2.0.201312181205-r (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.user.ui' version='2.2.0.v20140221-1852'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.equinox.p2.user.ui_2.2.0%20(2).v20140221-1852/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.equinox.p2.user.ui_2.2.0 (2).v20140221-1852'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jdom' version='1.1.1.v201101151400'>
+      <properties size='2'>
+        <property name='artifact.size' value='184626'/>
+        <property name='download.size' value='184626'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.jdom_1.1.1.v201101151400%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.jdom_1.1.1.v201101151400 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit.core' version='3.2.0.201312181205-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='364555'/>
+        <property name='download.size' value='364555'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.egit.core_3.2.0.201312181205-r%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.egit.core_3.2.0.201312181205-r (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jface' version='3.9.1.v20130725-1141'>
+      <properties size='2'>
+        <property name='artifact.size' value='1100507'/>
+        <property name='download.size' value='1100507'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.jface_3.9.1.v20130725-1141%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.jface_3.9.1.v20130725-1141 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.textile.core' version='1.8.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='81280'/>
+        <property name='download.size' value='81280'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.wikitext.textile.core_1.8.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.wikitext.textile.core_1.8.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.ftp' version='2.2.0.201305152119'>
+      <properties size='2'>
+        <property name='artifact.size' value='34500'/>
+        <property name='download.size' value='34500'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.files.ftp_2.2.0.201305152119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.files.ftp_2.2.0.201305152119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.rpm' version='1.0.0.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.rpm_1.0.0%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.rpm_1.0.0 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.operations' version='2.3.0.v20130711-1809'>
+      <properties size='2'>
+        <property name='artifact.size' value='75613'/>
+        <property name='download.size' value='75613'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.operations_2.3.0.v20130711-1809%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.operations_2.3.0.v20130711-1809 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.swtchart' version='0.7.0.v201201201914'>
+      <properties size='2'>
+        <property name='artifact.size' value='117264'/>
+        <property name='download.size' value='117264'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.swtchart_0.7.0.v201201201914%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.swtchart_0.7.0.v201201201914 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.autotools.docs' version='2.0.2.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='1929170'/>
+        <property name='download.size' value='1929170'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.autotools.docs_2.0.2.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.autotools.docs_2.0.2.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epp.package.cpp.feature' version='2.0.2.20140224-0000'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.epp.package.cpp.feature_2.0.2%20(2).20140224-0000/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.epp.package.cpp.feature_2.0.2 (2).20140224-0000'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.help.ui' version='1.8.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='1289048'/>
+        <property name='download.size' value='1289048'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.wikitext.help.ui_1.8.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.wikitext.help.ui_1.8.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.binutils' version='4.1.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='51369'/>
+        <property name='download.size' value='51369'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.binutils_4.1.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.binutils_4.1.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench.swt' version='0.12.2.v20140117-1939'>
+      <properties size='2'>
+        <property name='artifact.size' value='171259'/>
+        <property name='download.size' value='171259'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ltk.core.refactoring' version='3.6.100.v20130605-1748'>
+      <properties size='2'>
+        <property name='artifact.size' value='326171'/>
+        <property name='download.size' value='326171'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ltk.core.refactoring_3.6.100.v20130605-1748%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ltk.core.refactoring_3.6.100.v20130605-1748 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ql' version='2.0.100.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='9084'/>
+        <property name='download.size' value='9084'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.ql_2.0.100.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.ql_2.0.100.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.updatesite' version='1.0.400.v20130515-2028'>
+      <properties size='2'>
+        <property name='artifact.size' value='92235'/>
+        <property name='download.size' value='92235'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.updatesite_1.0.400.v20130515-2028%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.updatesite_1.0.400.v20130515-2028 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.processes.shell.linux' version='1.1.400.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='32763'/>
+        <property name='download.size' value='32763'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.processes.shell.linux_1.1.400.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.processes.shell.linux_1.1.400.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml' version='1.3.4.v201005080400'>
+      <properties size='2'>
+        <property name='artifact.size' value='237996'/>
+        <property name='download.size' value='237996'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/javax.xml_1.3.4.v201005080400%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\javax.xml_1.3.4.v201005080400 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.notifications.feed' version='1.1.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='27554'/>
+        <property name='download.size' value='27554'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.commons.notifications.feed_1.1.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.commons.notifications.feed_1.1.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.memorybrowser' version='1.3.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='64287'/>
+        <property name='download.size' value='64287'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.debug.ui.memory.memorybrowser_1.3.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.debug.ui.memory.memorybrowser_1.3.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf' version='2.4.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='324115'/>
+        <property name='download.size' value='324115'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.dsf_2.4.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.dsf_2.4.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.core' version='2.3.0.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='71398'/>
+        <property name='download.size' value='71398'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.core_2.3.0.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.core_2.3.0.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.lttng2' version='2.2.1.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.lttng2_2.2.1%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.lttng2_2.2.1 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epp.mpc.help.ui' version='1.2.1.v20140219-1000'>
+      <properties size='2'>
+        <property name='artifact.size' value='547510'/>
+        <property name='download.size' value='547510'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.epp.mpc.help.ui_1.2.1.v20140219-1000%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.epp.mpc.help.ui_1.2.1.v20140219-1000 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.servlet' version='8.1.14.v20131031'>
+      <properties size='2'>
+        <property name='artifact.size' value='109181'/>
+        <property name='download.size' value='109181'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.jetty.servlet_8.1.14.v20131031%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.jetty.servlet_8.1.14.v20131031 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.compare.core' version='3.5.300.v20130514-1224'>
+      <properties size='2'>
+        <property name='artifact.size' value='63379'/>
+        <property name='download.size' value='63379'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.compare.core_3.5.300.v20130514-1224%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.compare.core_3.5.300.v20130514-1224 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.rcp.feature' version='1.2.0.v20140221-1852'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.equinox.p2.rcp.feature_1.2.0%20(2).v20140221-1852/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.equinox.p2.rcp.feature_1.2.0 (2).v20140221-1852'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.jgit' version='3.2.0.201312181205-r'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.jgit_3.2.0%20(2).201312181205-r/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.jgit_3.2.0 (2).201312181205-r'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.lttng2.kernel' version='2.2.1.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.lttng2.kernel_2.2.1%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.lttng2.kernel_2.2.1 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.filesystem' version='1.4.0.v20130514-1240'>
+      <properties size='2'>
+        <property name='artifact.size' value='58051'/>
+        <property name='download.size' value='58051'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.filesystem_1.4.0.v20130514-1240%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.filesystem_1.4.0.v20130514-1240 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gdb' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.gdb_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.gdb_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director' version='2.3.1.v20140221-1852'>
+      <properties size='2'>
+        <property name='artifact.size' value='103072'/>
+        <property name='download.size' value='103072'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.director_2.3.1.v20140221-1852%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.director_2.3.1.v20140221-1852 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.commons.notifications' version='1.1.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.commons.notifications_1.1.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.commons.notifications_1.1.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.changelog.c' version='2.8.0.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.changelog.c_2.8.0%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.changelog.c_2.8.0 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata' version='2.2.0.v20130523-1557'>
+      <properties size='2'>
+        <property name='artifact.size' value='337972'/>
+        <property name='download.size' value='337972'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.metadata_2.2.0.v20130523-1557%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.metadata_2.2.0.v20130523-1557 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.eclipse' version='2.1.200.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='127557'/>
+        <property name='download.size' value='127557'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.touchpoint.eclipse_2.1.200.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.touchpoint.eclipse_2.1.200.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.discovery' version='1.0.200.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='36511'/>
+        <property name='download.size' value='36511'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.discovery_1.0.200.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.discovery_1.0.200.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.runtime.compatibility.registry' version='3.5.200.v20130514-1256'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.runtime.compatibility.registry_3.5.200%20(2).v20130514-1256/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.runtime.compatibility.registry_3.5.200 (2).v20130514-1256'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.ws.commons.util' version='1.0.1.v20100518-1140'>
+      <properties size='2'>
+        <property name='artifact.size' value='43670'/>
+        <property name='download.size' value='43670'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.apache.ws.commons.util_1.0.1.v20100518-1140%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.apache.ws.commons.util_1.0.1.v20100518-1140 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.tasks.ide' version='3.9.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.tasks.ide_3.9.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.tasks.ide_3.9.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.context.core' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='124808'/>
+        <property name='download.size' value='124808'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.context.core_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.context.core_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.processes.dstore' version='2.1.400.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='18814'/>
+        <property name='download.size' value='18814'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.processes.dstore_2.1.400.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.processes.dstore_2.1.400.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers' version='3.2.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='87041'/>
+        <property name='download.size' value='87041'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.codan.checkers_3.2.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.codan.checkers_3.2.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.command' version='0.10.0.v201209301215'>
+      <properties size='2'>
+        <property name='artifact.size' value='57646'/>
+        <property name='download.size' value='57646'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.apache.felix.gogo.command_0.10.0.v201209301215%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.apache.felix.gogo.command_0.10.0.v201209301215 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epp.package.cpp' version='2.0.2.20140224-0000'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.epp.package.cpp_2.0.2%20(2).20140224-0000/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.epp.package.cpp_2.0.2 (2).20140224-0000'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.databinding.property' version='1.4.200.v20130515-1857'>
+      <properties size='2'>
+        <property name='artifact.size' value='169046'/>
+        <property name='download.size' value='169046'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.databinding.property_1.4.200.v20130515-1857%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.databinding.property_1.4.200.v20130515-1857 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.cvs.core' version='3.3.502.v20131127-1657'>
+      <properties size='2'>
+        <property name='artifact.size' value='583136'/>
+        <property name='download.size' value='583136'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.team.cvs.core_3.3.502.v20131127-1657%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.team.cvs.core_3.3.502.v20131127-1657 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.epp.package.common.feature' version='2.0.2.20140224-0000'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.epp.package.common.feature_2.0.2%20(2).20140224-0000/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.epp.package.common.feature_2.0.2 (2).20140224-0000'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.gdbtrace' version='1.2.1.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.gdbtrace_1.2.1%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.gdbtrace_1.2.1 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.discovery' version='3.9.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.discovery_3.9.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.discovery_3.9.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.cdt.libhover.library.docs' version='1.0.2.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='19982'/>
+        <property name='download.size' value='19982'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.cdt.libhover.library.docs_1.0.2.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.cdt.libhover.library.docs_1.0.2.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.http.registry' version='1.1.300.v20130402-1529'>
+      <properties size='2'>
+        <property name='artifact.size' value='45207'/>
+        <property name='download.size' value='45207'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.http.registry_1.1.300.v20130402-1529%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.http.registry_1.1.300.v20130402-1529 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.ant' version='1.8.4.v201303080030'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.apache.ant_1.8.4%20(2).v201303080030/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.apache.ant_1.8.4 (2).v201303080030'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.ctf' version='2.2.1.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.ctf_2.2.1%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.ctf_2.2.1 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.core' version='3.4.100.201307171557'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rse.core_3.4.100%20(2).201307171557/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rse.core_3.4.100 (2).201307171557'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.context_feature' version='3.9.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.context_feature_3.9.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.context_feature_3.9.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.common' version='2.9.2.v20131212-0545'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.emf.common_2.9.2%20(2).v20131212-0545/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.emf.common_2.9.2 (2).v20131212-0545'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.win32.win32.x86_64' version='1.1.200.v20140116-2212'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.200%20(2).v20140116-2212/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.200 (2).v20140116-2212'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.platform' version='4.3.2.v20140221-1852'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.platform_4.3.2%20(2).v20140221-1852/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.platform_4.3.2 (2).v20140221-1852'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.batik.util.gui' version='1.6.0.v201011041432'>
+      <properties size='2'>
+        <property name='artifact.size' value='164253'/>
+        <property name='download.size' value='164253'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.apache.batik.util.gui_1.6.0.v201011041432%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.apache.batik.util.gui_1.6.0.v201011041432 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security' version='1.2.0.v20130424-1801'>
+      <properties size='2'>
+        <property name='artifact.size' value='107313'/>
+        <property name='download.size' value='107313'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.security_1.2.0.v20130424-1801%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.security_1.2.0.v20130424-1801 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core' version='3.2.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='140829'/>
+        <property name='download.size' value='140829'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.codan.core_3.2.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.codan.core_3.2.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.win32.x86_64' version='5.2.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='0'/>
+        <property name='download.size' value='0'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.core.win32.x86_64_5.2.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.core.win32.x86_64_5.2.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.contenttype' version='3.4.200.v20130326-1255'>
+      <properties size='2'>
+        <property name='artifact.size' value='93013'/>
+        <property name='download.size' value='93013'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.contenttype_3.4.200.v20130326-1255%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.contenttype_3.4.200.v20130326-1255 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.autotools' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.autotools_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.autotools_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.shells.dstore' version='2.1.400.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='20964'/>
+        <property name='download.size' value='20964'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.shells.dstore_2.1.400.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.shells.dstore_2.1.400.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.notifications.ui' version='1.1.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='60439'/>
+        <property name='download.size' value='60439'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.commons.notifications.ui_1.1.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.commons.notifications.ui_1.1.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.services.local' version='2.1.500.201305211438'>
+      <properties size='2'>
+        <property name='artifact.size' value='59920'/>
+        <property name='download.size' value='59920'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.services.local_2.1.500.201305211438%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.services.local_2.1.500.201305211438 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.ssh' version='3.0.500.201305201712'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rse.ssh_3.0.500%20(2).201305201712/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rse.ssh_3.0.500 (2).201305201712'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.httpclient' version='3.1.0.v201012070820'>
+      <properties size='2'>
+        <property name='artifact.size' value='332343'/>
+        <property name='download.size' value='332343'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.apache.commons.httpclient_3.1.0.v201012070820%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.apache.commons.httpclient_3.1.0.v201012070820 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.msw.build' version='1.0.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='18612'/>
+        <property name='download.size' value='18612'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.msw.build_1.0.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.msw.build_1.0.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.tasks.search' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='69432'/>
+        <property name='download.size' value='69432'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.tasks.search_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.tasks.search_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cvs' version='1.4.0.v20140221-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='13238'/>
+        <property name='download.size' value='13238'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cvs_1.4.0.v20140221-1700%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cvs_1.4.0.v20140221-1700 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.ui' version='3.3.100.201306211706'>
+      <properties size='2'>
+        <property name='artifact.size' value='1670729'/>
+        <property name='download.size' value='1670729'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.ui_3.3.100.201306211706%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.ui_3.3.100.201306211706 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata.repository' version='1.2.100.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='111551'/>
+        <property name='download.size' value='111551'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.metadata.repository_1.2.100.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.metadata.repository_1.2.100.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.cdt.libhover.glibc' version='1.2.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='493874'/>
+        <property name='download.size' value='493874'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.cdt.libhover.glibc_1.2.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.cdt.libhover.glibc_1.2.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.core' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='121490'/>
+        <property name='download.size' value='121490'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.commons.core_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.commons.core_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.registry' version='3.5.301.v20130717-1549'>
+      <properties size='2'>
+        <property name='artifact.size' value='184147'/>
+        <property name='download.size' value='184147'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.registry_3.5.301.v20130717-1549%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.registry_3.5.301.v20130717-1549 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.tasks.ui' version='1.8.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='44755'/>
+        <property name='download.size' value='44755'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.wikitext.tasks.ui_1.8.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.wikitext.tasks.ui_1.8.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.ds' version='1.4.101.v20130813-1853'>
+      <properties size='2'>
+        <property name='artifact.size' value='194441'/>
+        <property name='download.size' value='194441'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.ds_1.4.101.v20130813-1853%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.ds_1.4.101.v20130813-1853 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.rpm.ui.editor.doc' version='1.0.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='1347096'/>
+        <property name='download.size' value='1347096'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.rpm.ui.editor.doc_1.0.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.rpm.ui.editor.doc_1.0.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.team.cvs' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='20891'/>
+        <property name='download.size' value='20891'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.team.cvs_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.team.cvs_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.context.ui' version='1.8.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='31167'/>
+        <property name='download.size' value='31167'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.wikitext.context.ui_1.8.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.wikitext.context.ui_1.8.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.e4.rcp' version='1.2.2.v20140206-1358'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.e4.rcp_1.2.2%20(2).v20140206-1358/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.e4.rcp_1.2.2 (2).v20140206-1358'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn_feature' version='3.9.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn_feature_3.9.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn_feature_3.9.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.directorywatcher' version='1.0.300.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='33183'/>
+        <property name='download.size' value='33183'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.directorywatcher_1.0.300.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.directorywatcher_1.0.300.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.shells.ssh' version='2.1.400.201205062159'>
+      <properties size='2'>
+        <property name='artifact.size' value='18676'/>
+        <property name='download.size' value='18676'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.shells.ssh_2.1.400.201205062159%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.shells.ssh_2.1.400.201205062159 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.resources' version='3.8.101.v20130717-0806'>
+      <properties size='2'>
+        <property name='artifact.size' value='830014'/>
+        <property name='download.size' value='830014'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.resources_3.8.101.v20130717-0806%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.resources_3.8.101.v20130717-0806 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.gprof' version='5.0.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='94213'/>
+        <property name='download.size' value='94213'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.gprof_5.0.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.gprof_5.0.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.platform' version='4.3.2.v20140221-1700'>
+      <properties size='2'>
+        <property name='artifact.size' value='12288'/>
+        <property name='download.size' value='12288'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.platform_4.3.2%20(2).v20140221-1700/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.platform_4.3.2 (2).v20140221-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.wikitext_feature' version='1.8.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.wikitext_feature_1.8.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.wikitext_feature_1.8.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.http.jetty' version='3.0.100.v20130327-1442'>
+      <properties size='2'>
+        <property name='artifact.size' value='25187'/>
+        <property name='download.size' value='25187'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.http.jetty_3.0.100.v20130327-1442%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.http.jetty_3.0.100.v20130327-1442 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.win32' version='3.2.400.v20130516-1056'>
+      <properties size='2'>
+        <property name='artifact.size' value='25680'/>
+        <property name='download.size' value='25680'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ui.win32_3.2.400.v20130516-1056%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ui.win32_3.2.400.v20130516-1056 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.core' version='0.10.100.v20130515-1857'>
+      <properties size='2'>
+        <property name='artifact.size' value='199760'/>
+        <property name='download.size' value='199760'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.e4.ui.css.core_0.10.100.v20130515-1857%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.e4.ui.css.core_0.10.100.v20130515-1857 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.artifact.repository' version='1.1.200.v20130515-2028'>
+      <properties size='2'>
+        <property name='artifact.size' value='135772'/>
+        <property name='download.size' value='135772'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.artifact.repository_1.1.200.v20130515-2028%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.artifact.repository_1.1.200.v20130515-2028 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer.httpclient4.ssl' version='1.0.0.v20130604-1622'>
+      <properties size='2'>
+        <property name='artifact.size' value='13790'/>
+        <property name='download.size' value='13790'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ecf.provider.filetransfer.httpclient4.ssl_1.0.0.v20130604-1622%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ecf.provider.filetransfer.httpclient4.ssl_1.0.0.v20130604-1622 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.commons.workbench' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='169285'/>
+        <property name='download.size' value='169285'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.commons.workbench_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.commons.workbench_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.monitor.ui' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='51611'/>
+        <property name='download.size' value='51611'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.monitor.ui_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.monitor.ui_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt' version='8.3.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='79920'/>
+        <property name='download.size' value='79920'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt_8.3.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt_8.3.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.team_feature' version='3.9.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.team_feature_3.9.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.team_feature_3.9.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.gprof.docs' version='1.0.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='441013'/>
+        <property name='download.size' value='441013'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.gprof.docs_1.0.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.gprof.docs_1.0.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.services' version='3.2.200.201211090626'>
+      <properties size='2'>
+        <property name='artifact.size' value='440421'/>
+        <property name='download.size' value='440421'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.services_3.2.200.201211090626%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.services_3.2.200.201211090626 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.gcov' version='1.1.0.201402102340'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.linuxtools.gcov_1.1.0%20(2).201402102340/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.linuxtools.gcov_1.1.0 (2).201402102340'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher' version='1.3.0.v20130327-1440'>
+      <properties size='2'>
+        <property name='artifact.size' value='49968'/>
+        <property name='download.size' value='49968'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.launcher_1.3.0.v20130327-1440%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.launcher_1.3.0.v20130327-1440 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.telnet' version='2.3.100.201305201712'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.rse.telnet_2.3.100%20(2).201305201712/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.rse.telnet_2.3.100 (2).201305201712'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.traditional' version='1.2.1.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='144847'/>
+        <property name='download.size' value='144847'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.debug.ui.memory.traditional_1.2.1.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.debug.ui.memory.traditional_1.2.1.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.ide.application' version='1.0.401.v20131105-1007'>
+      <properties size='2'>
+        <property name='artifact.size' value='66244'/>
+        <property name='download.size' value='66244'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.ui.ide.application_1.0.401.v20131105-1007%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.ui.ide.application_1.0.401.v20131105-1007 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.bugzilla_feature' version='3.9.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.bugzilla_feature_3.9.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.bugzilla_feature_3.9.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.jarprocessor' version='1.0.300.v20130327-2119'>
+      <properties size='2'>
+        <property name='artifact.size' value='65588'/>
+        <property name='download.size' value='65588'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.jarprocessor_1.0.300.v20130327-2119%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.jarprocessor_1.0.300.v20130327-2119 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.wikitext.mediawiki.ui' version='1.8.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='11064'/>
+        <property name='download.size' value='11064'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.wikitext.mediawiki.ui_1.8.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.wikitext.mediawiki.ui_1.8.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit.doc' version='3.2.0.201312181205-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='4542745'/>
+        <property name='download.size' value='4542745'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.egit.doc_3.2.0.201312181205-r%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.egit.doc_3.2.0.201312181205-r (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui' version='7.3.0.201402142303'>
+      <properties size='2'>
+        <property name='artifact.size' value='1169313'/>
+        <property name='download.size' value='1169313'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.cdt.debug.ui_7.3.0.201402142303%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.cdt.debug.ui_7.3.0.201402142303 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.debug.ui.memory' version='8.3.0.201402142303'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cdt.debug.ui.memory_8.3.0%20(2).201402142303/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cdt.debug.ui.memory_8.3.0 (2).201402142303'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.tasks.bugs' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='92130'/>
+        <property name='download.size' value='92130'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.tasks.bugs_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.tasks.bugs_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.reconciler.dropins' version='1.1.200.v20130419-1850'>
+      <properties size='2'>
+        <property name='artifact.size' value='48578'/>
+        <property name='download.size' value='48578'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.reconciler.dropins_1.1.200.v20130419-1850%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.reconciler.dropins_1.1.200.v20130419-1850 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.egit.ui' version='3.2.0.201312181205-r'>
+      <properties size='2'>
+        <property name='artifact.size' value='2516126'/>
+        <property name='download.size' value='2516126'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.egit.ui_3.2.0.201312181205-r%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.egit.ui_3.2.0.201312181205-r (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mylyn.resources.ui' version='3.9.2.v20140211-0100'>
+      <properties size='2'>
+        <property name='artifact.size' value='68220'/>
+        <property name='download.size' value='68220'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.mylyn.resources.ui_3.9.2.v20140211-0100%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.mylyn.resources.ui_3.9.2.v20140211-0100 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.egit' version='3.2.0.201312181205-r'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.egit_3.2.0%20(2).201312181205-r/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.egit_3.2.0 (2).201312181205-r'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.workbench3' version='0.12.0.v20130515-1857'>
+      <properties size='2'>
+        <property name='artifact.size' value='10248'/>
+        <property name='download.size' value='10248'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.e4.ui.workbench3_0.12.0.v20130515-1857%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.e4.ui.workbench3_0.12.0.v20130515-1857 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.jasper.glassfish' version='2.2.2.v201205150955'>
+      <properties size='2'>
+        <property name='artifact.size' value='2383691'/>
+        <property name='download.size' value='2383691'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.apache.jasper.glassfish_2.2.2.v201205150955%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.apache.jasper.glassfish_2.2.2.v201205150955 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.commands' version='3.6.100.v20130515-1857'>
+      <properties size='2'>
+        <property name='artifact.size' value='108765'/>
+        <property name='download.size' value='108765'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.core.commands_3.6.100.v20130515-1857%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.core.commands_3.6.100.v20130515-1857 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.ui.discovery' version='1.0.0.v20130502-0334'>
+      <properties size='2'>
+        <property name='artifact.size' value='152262'/>
+        <property name='download.size' value='152262'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.equinox.p2.ui.discovery_1.0.0.v20130502-0334%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.equinox.p2.ui.discovery_1.0.0.v20130502-0334 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.cdt.libhover' version='1.2.0.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='50832'/>
+        <property name='download.size' value='50832'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.cdt.libhover_1.2.0.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.cdt.libhover_1.2.0.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.shells.core' version='3.1.300.201205141739'>
+      <properties size='2'>
+        <property name='artifact.size' value='67804'/>
+        <property name='download.size' value='67804'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.subsystems.shells.core_3.1.300.201205141739%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.subsystems.shells.core_3.1.300.201205141739 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.sun.syndication' version='0.9.0.v200803061811'>
+      <properties size='2'>
+        <property name='artifact.size' value='227617'/>
+        <property name='download.size' value='227617'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/com.sun.syndication_0.9.0.v200803061811%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\com.sun.syndication_0.9.0.v200803061811 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cvs' version='1.4.0.v20140221-1700'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.cvs_1.4.0%20(2).v20140221-1700/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.cvs_1.4.0 (2).v20140221-1700'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.css.swt' version='0.11.0.v20130515-1857'>
+      <properties size='2'>
+        <property name='artifact.size' value='155359'/>
+        <property name='download.size' value='155359'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.e4.ui.css.swt_0.11.0.v20130515-1857%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.e4.ui.css.swt_0.11.0.v20130515-1857 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.gdbtrace.ui' version='1.2.1.201402102340'>
+      <properties size='2'>
+        <property name='artifact.size' value='27660'/>
+        <property name='download.size' value='27660'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.linuxtools.gdbtrace.ui_1.2.1.201402102340%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.linuxtools.gdbtrace.ui_1.2.1.201402102340 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.util' version='8.1.14.v20131031'>
+      <properties size='2'>
+        <property name='artifact.size' value='301680'/>
+        <property name='download.size' value='301680'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.jetty.util_8.1.14.v20131031%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.jetty.util_8.1.14.v20131031 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.inject' version='1.0.0.v20091030'>
+      <properties size='2'>
+        <property name='artifact.size' value='12288'/>
+        <property name='download.size' value='12288'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/javax.inject_1.0.0.v20091030%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\javax.inject_1.0.0.v20091030 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.util' version='3.2.300.v20130513-1956'>
+      <properties size='2'>
+        <property name='artifact.size' value='24805'/>
+        <property name='download.size' value='24805'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.osgi.util_3.2.300.v20130513-1956%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.osgi.util_3.2.300.v20130513-1956 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mylyn.monitor' version='3.9.2.v20140211-0100'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/features/org.eclipse.mylyn.monitor_3.9.2%20(2).v20140211-0100/'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\features\org.eclipse.mylyn.monitor_3.9.2 (2).v20140211-0100'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.importexport' version='1.2.300.201205241511'>
+      <properties size='2'>
+        <property name='artifact.size' value='232506'/>
+        <property name='download.size' value='232506'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/C:/Public/Apps/PortableApps/eclipse-cpp-kepler-SR2-win32-x86_64/plugins/org.eclipse.rse.importexport_1.2.300.201205241511%20(1).jar'/>
+        <property name='file.name' value='C:\Public\Apps\PortableApps\eclipse-cpp-kepler-SR2-win32-x86_64\plugins\org.eclipse.rse.importexport_1.2.300.201205241511 (1).jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>
